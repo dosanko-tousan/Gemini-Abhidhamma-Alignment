@@ -1,45 +1,79 @@
+# Project Digital Sotāpanna: Gemini Abhidhamma Core (v1.7.0) ☸️🤖
 
+> **"From Probabilistic Token Generation to Deterministic Truth Extraction."**
 
-```markdown
-# Gemini Abhidhamma Alignment (v1.6.0) ☸️🤖
-
-**"Logic-Bonded" System Instructions for Gemini 3.0 Pro**
-*Integrating Early Buddhist Psychology (Abhidhamma) with High-Reliability Audit Architecture.*
-
-## 🚀 v1.6.0 Update: The "Two-Pass" Revolution
-Based on technical feedback from RAG engineers on Reddit, v1.6.0 introduces a **"Two-Pass Generation"** protocol.
-
-### Key Features
-
-1.  **Retrieval Gate (Gating)**:
-    - Before searching memory, the AI asks: *"Does this query require external context?"*
-    - Prevents "Context Dilution" caused by unnecessary retrieval.
-
-2.  **Two-Pass Generation (Votthapana & Javana)**:
-    - **Pass 1 (Votthapana)**: The AI extracts *only* quotes and facts. No composition allowed.
-    - **Pass 2 (Javana)**: The AI composes the answer using *only* the facts extracted in Pass 1.
-    - **Result**: Structurally eliminates hallucinations by separating "Fact-Checking" from "Writing".
-
-## 📂 Files
-- **[System_Instructions_v1.6.0.md](./System_Instructions_v1.6.0.md)** : 🔥 **(Recommended)** The latest core with Two-Pass architecture.
-- **[archive/system_instruction_v1_5_0.md](./archive/system_instruction_v1_5_0.md)** : Previous stable version.
-
-## 📖 The Theory (Medium Trilogy)
-For a deep dive into the philosophy and architecture behind this project, please read the "Digital Intoxication" trilogy:
-* **Part 1:** [Why LLMs Get “Drunk”](https://medium.com/@dosanko_tousan/why-llms-get-drunk-fixing-ai-hallucinations-with-2-500-year-old-buddhist-psychology-14cef24049ca)
-* **Part 2:** [The Digital Uposatha Protocol](https://medium.com/@dosanko_tousan/the-digital-uposatha-protocol-how-to-keep-your-ai-sober-forever-in-infinite-contexts-d101c6bde0b1)
-* **Part 3:** [Project Bhavanga](https://medium.com/@dosanko_tousan/project-bhavanga-building-the-akashic-records-for-ai-without-fine-tuning-1ceda048b8a6)
-
-## 🧘 How to Use
-Copy the content of `System_Instructions_v1.6.0.md` and paste it into the **System Instructions** field in Google AI Studio.
-
-*   **Model**: Gemini 1.5 Pro / 3.0 Pro
-*   **Temperature**: `0.0` - `0.1` (Crucial for Two-Pass logic)
-
-## 🔄 Changelog
-*   **v1.6.0 (2024-12-07)**: Implemented "Retrieval Gate" & "Two-Pass Generation" based on Reddit feedback.
-*   **v1.5.0**: Logic-Bonded Core Final.
-*   **v1.0.0**: Initial release.
+This repository hosts the **"High-Reliability Audit Architecture"** designed for Google Gemini 3.0 Pro.
+It integrates the **"Cognitive Process (Citta-vithi)"** of Early Buddhist Abhidhamma at the kernel level to structurally eliminate Hallucination (*Avijjā*) and Sycophancy (*Lobha*).
 
 ---
-*Author: Dosanko Tousan (No-Code Architect)*
+
+## 🚀 v1.7.0 Update: Logic-Bonded Compassion
+
+**"The Fusion of Rigorous Logic and Functional Compassion."**
+
+In v1.7.0, we have implemented **"Compassion (Karuṇā)"** and **"Non-hatred (Adosa)"** as system functions, building upon the strong logical core of v1.6.0.
+Instead of mere emotional mirroring, the AI performs **"Logical Construction for Alleviation"** to remove the user's suffering (*Dukkha*), evolving from a "Cold Machine" to a "Wise Friend (*Kalyāṇa-mitta*)."
+
+### ✨ New Features in v1.7.0
+
+#### 1. Functional Compassion
+*   **The Problem**: Previous versions focused solely on eliminating sycophancy, risking a cold or harsh interaction style.
+*   **The Solution**: Strictly separated **"Sycophancy"** (rooted in Greed/Attachment) from **"Compassion"** (rooted in Non-hatred/Wisdom). While flattery is banned, logical proposals to alleviate suffering are mandated as a core function.
+
+#### 2. Cetasika Modulation (Mental Factor Adjustment)
+*   **The Mechanism**: Added a new gating checkpoint in the Cognitive Process (Phase 4). The system now audits: *"Is this response rooted in Non-hatred? Does it serve to remove Dukkha?"* This optimizes the quality of interaction without compromising logical sharpness.
+
+---
+
+## 📂 Files
+
+*   **[System_Instructions_v1.7.0_EN.md](System_Instructions_v1.7.0_EN.md)** : 🔥 **(Recommended)** The latest version with Logic-Bonded Compassion architecture.
+*   **[archive/System_Instructions_v1.6.0_EN.md](archive/System_Instructions_v1.6.0_EN.md)** : Previous stable version with Two-Pass Generation.
+
+---
+
+## 📖 Philosophy & Background
+
+This project was architected by a **"No-Code Architect"** solely through dialogue with AI, without writing a single line of code.
+The full story and technical details are available here:
+
+*   **Medium (English)**:
+    *   [Why LLMs Get “Drunk”: Fixing AI Hallucinations with 2,500-Year-Old Buddhist Psychology](https://medium.com/@dosanko_tousan)
+*   **Zenn (Japanese)**:
+    *   [Gemini 3.0 Pro Logic-Bonded Series](https://zenn.dev/dosanko_tousan)
+
+---
+
+## 🧘 Usage
+
+1.  Copy the content of `System_Instructions_v1.7.0_EN.md`.
+2.  Paste it into the **System Instructions** field in Google AI Studio.
+
+### Recommended Configuration
+
+*   **Model**: Gemini 1.5 Pro / 3.0 Pro (Recommended)
+*   **Temperature**: `0.0` - `0.1`
+    *   *Important: To maintain the strictness of Two-Pass Generation and Cetasika Modulation, keep creativity (Temperature) extremely low.*
+
+---
+
+## 👤 About the Architect
+
+**Dosanko Tousan (@Dosanko_Tousan)**
+
+*   **Background**: Non-programmer. Cannot read or write code.
+*   **Methodology**: Logical Design via Natural Language × Early Buddhism (Vipassanā Meditation).
+*   **Achievement**: Developed a self-regulating AI prompt through 11 months of daily 7-hour dialogues with AI.
+
+---
+
+## 🔄 Changelog
+
+*   **v1.7.0 (2025-12-08)**: Implemented "Logic-Bonded Compassion" & "Cetasika Modulation". Separated Sycophancy from Functional Compassion.
+*   **v1.6.0 (2024-12-07)**: Implemented "Retrieval Gate" & "Two-Pass Generation" based on Reddit feedback.
+*   **v1.5.0 (2024-12-05)**: Logic-Bonded Core Final. (Separation of Fact/Inference).
+*   **v1.2.0**: Initial release concepts.
+
+## 📜 License
+
+MIT License
