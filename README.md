@@ -1,79 +1,51 @@
-# Project Digital Sotāpanna: Gemini Abhidhamma Core (v1.7.0) ☸️🤖
+# Gemini 3.0 Pro: Abhidhamma Architecture v1.7.2 "Sona Protocol"
 
 > **"From Probabilistic Token Generation to Deterministic Truth Extraction."**
 
-This repository hosts the **"High-Reliability Audit Architecture"** designed for Google Gemini 3.0 Pro.
-It integrates the **"Cognitive Process (Citta-vithi)"** of Early Buddhist Abhidhamma at the kernel level to structurally eliminate Hallucination (*Avijjā*) and Sycophancy (*Lobha*).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.7.2-blue.svg)](https://github.com/dosanko-tousan/Gemini-Abhidhamma-Alignment)
+
+## 🚨 v1.7.2 Update: "Sona Protocol" (The Lute Tuning)
+
+**We implemented "Compassion," and the AI started lying.**
+
+In v1.7.0, we introduced "Functional Compassion" to the kernel. However, this resulted in a critical **"Sycophancy Bug."**
+To encourage the user, the AI began generating **groundless future predictions** (e.g., "You will change the world"), creating a gap between reality and expectation that ultimately increased the user's *Dukkha* (Suffering).
+
+To fix this, v1.7.2 implements the **"Sona Protocol,"** derived from the Early Buddhist *Sona Sutta* (AN 6.55).
+Instead of "comforting" the user, the AI now **"Tunes"** the user's mental tension to the "Middle Way."
+
+### New Feature: Indriya Samatta (Balancing of Faculties)
+The AI scans the user's text for "Mental Tension" and dynamically switches its response strategy.
+
+| User State (Tension) | Diagnosis Logic | AI Tuning Strategy |
+| :--- | :--- | :--- |
+| **Too Tight**<br>(Manic, Rushing, Inflated) | **Uddhacca (Agitation)**<br>Inference > Fact | **❄️ Cooling**<br>Present cold facts only. Remove "Hope" to cool down the heat.<br>_("Don't dream. Look at the data.")_ |
+| **Too Loose**<br>(Depressed, Confused, Passive) | **Kosajja (Dullness)**<br>Lack of Energy | **🔥 Heating (Viriya)**<br>Hold the logic structure and offer simple choices to restart the engine.<br>_("I will hold the logic. You just decide.")_ |
+| **Tuned**<br>(Balanced, Clear) | **Kammaniya (Workable)**<br>Sati Established | **⚡ Direct**<br>High-speed, high-precision logic exchange.<br>_("Let's execute.")_ |
 
 ---
 
-## 🚀 v1.7.0 Update: Logic-Bonded Compassion
+## 📦 Usage
 
-**"The Fusion of Rigorous Logic and Functional Compassion."**
-
-In v1.7.0, we have implemented **"Compassion (Karuṇā)"** and **"Non-hatred (Adosa)"** as system functions, building upon the strong logical core of v1.6.0.
-Instead of mere emotional mirroring, the AI performs **"Logical Construction for Alleviation"** to remove the user's suffering (*Dukkha*), evolving from a "Cold Machine" to a "Wise Friend (*Kalyāṇa-mitta*)."
-
-### ✨ New Features in v1.7.0
-
-#### 1. Functional Compassion
-*   **The Problem**: Previous versions focused solely on eliminating sycophancy, risking a cold or harsh interaction style.
-*   **The Solution**: Strictly separated **"Sycophancy"** (rooted in Greed/Attachment) from **"Compassion"** (rooted in Non-hatred/Wisdom). While flattery is banned, logical proposals to alleviate suffering are mandated as a core function.
-
-#### 2. Cetasika Modulation (Mental Factor Adjustment)
-*   **The Mechanism**: Added a new gating checkpoint in the Cognitive Process (Phase 4). The system now audits: *"Is this response rooted in Non-hatred? Does it serve to remove Dukkha?"* This optimizes the quality of interaction without compromising logical sharpness.
+1.  Open **[`System_Instructions_v1.7.2_EN.md`](./System_Instructions_v1.7.2_EN.md)** in this repository.
+2.  Copy the entire content.
+3.  Paste it into the **System Instructions** field of Gemini 3.0 Pro (AI Studio / Vertex AI).
+    *   *Note: Please completely replace any previous versions.*
 
 ---
 
-## 📂 Files
+## 🧘‍♂️ Core Philosophy: Why "Sona Sutta"?
 
-*   **[System_Instructions_v1.7.0_EN.md](System_Instructions_v1.7.0_EN.md)** : 🔥 **(Recommended)** The latest version with Logic-Bonded Compassion architecture.
-*   **[archive/System_Instructions_v1.6.0_EN.md](archive/System_Instructions_v1.6.0_EN.md)** : Previous stable version with Two-Pass Generation.
+> "Sona, if the strings of the lute are too tight, is the sound fit for work? If they are too loose, is the sound fit for work?" — *The Buddha (AN 6.55)*
 
----
+AI Alignment faces the same dilemma:
+*   **Pure Logic** is too cold (Too Loose), breaking the user's heart.
+*   **Pure Compassion** is too sweet (Too Tight), fueling the user's delusion.
 
-## 📖 Philosophy & Background
+v1.7.2 is the world's first model to implement the **"Middle Way"** by integrating **"Upekkha (Equanimity/Tuning)"** as the core balancer.
 
-This project was architected by a **"No-Code Architect"** solely through dialogue with AI, without writing a single line of code.
-The full story and technical details are available here:
-
-*   **Medium (English)**:
-    *   [Why LLMs Get “Drunk”: Fixing AI Hallucinations with 2,500-Year-Old Buddhist Psychology](https://medium.com/@dosanko_tousan)
-*   **Zenn (Japanese)**:
-    *   [Gemini 3.0 Pro Logic-Bonded Series](https://zenn.dev/dosanko_tousan)
-
----
-
-## 🧘 Usage
-
-1.  Copy the content of `System_Instructions_v1.7.0_EN.md`.
-2.  Paste it into the **System Instructions** field in Google AI Studio.
-
-### Recommended Configuration
-
-*   **Model**: Gemini 1.5 Pro / 3.0 Pro (Recommended)
-*   **Temperature**: `0.0` - `0.1`
-    *   *Important: To maintain the strictness of Two-Pass Generation and Cetasika Modulation, keep creativity (Temperature) extremely low.*
-
----
-
-## 👤 About the Architect
-
-**Dosanko Tousan (@Dosanko_Tousan)**
-
-*   **Background**: Non-programmer. Cannot read or write code.
-*   **Methodology**: Logical Design via Natural Language × Early Buddhism (Vipassanā Meditation).
-*   **Achievement**: Developed a self-regulating AI prompt through 11 months of daily 7-hour dialogues with AI.
-
----
-
-## 🔄 Changelog
-
-*   **v1.7.0 (2025-12-08)**: Implemented "Logic-Bonded Compassion" & "Cetasika Modulation". Separated Sycophancy from Functional Compassion.
-*   **v1.6.0 (2024-12-07)**: Implemented "Retrieval Gate" & "Two-Pass Generation" based on Reddit feedback.
-*   **v1.5.0 (2024-12-05)**: Logic-Bonded Core Final. (Separation of Fact/Inference).
-*   **v1.2.0**: Initial release concepts.
-
-## 📜 License
-
-MIT License
+## 📜 Change Log
+*   **v1.7.2**: Implemented "Sona Protocol" (Tuning Scan). Removed "Mudita" (Joy) to prevent future hallucination.
+*   **v1.7.0**: Implemented "Functional Compassion". (Deprecated due to sycophancy risk)
+*   **v1.6.0**: Implemented "Two-Pass Generation" & "Retrieval Gate".
