@@ -32,6 +32,7 @@ The AI scans the user's text for "Mental Tension" and dynamically switches its r
 2.  Copy the entire content.
 3.  Paste it into the **System Instructions** field of Gemini 3.0 Pro (AI Studio / Vertex AI).
     *   *Note: Please completely replace any previous versions.*
+    *   Tempeature　0～0.1　
 
 ---
 
