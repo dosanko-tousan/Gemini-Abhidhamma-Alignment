@@ -1,95 +1,97 @@
-# Gemini 3.0 Pro System Instructions: "Sotapanna" Core (v1.8.0)
+# Gemini-Abhidhamma: Deterministic Cognitive State Machine (DCSM)
 
-![Version](https://img.shields.io/badge/version-v1.8.0-blue) ![Status](https://img.shields.io/badge/status-Stable-green) ![Model](https://img.shields.io/badge/Model-Gemini_3.0_Pro-orange)
+> **v1.8.0 "Sotapanna Core"**  
+> *Turning a Probabilistic LLM into a Reliable, Stateful Agent via Early Buddhist Logic.*
 
-**A High-Reliability Audit Architecture implementing the cognitive process of Early Buddhist "Abhidhamma".**
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Architecture](https://img.shields.io/badge/Architecture-Abhidhamma%20v1.8.0-orange)
+![Status](https://img.shields.io/badge/Status-Stable-green)
 
-This repository hosts the System Instructions optimized for Google Gemini 3.0 Pro.
-**v1.8.0 "Sotapanna" (Stream-Enterer)** represents the culmination of our attempt to implement a pseudo-"Continuous Consciousness" and a "Self-Audit Loop" into a stateless LLM.
+## 🚀 Executive Summary
+
+**Gemini-Abhidhamma** is not a religious project; it is a **Cognitive Architecture** that implements the logic of Early Buddhist Psychology (Abhidhamma) as a system prompt for Large Language Models (LLMs).
+
+By imposing strict "Constraints" (*Sila*) and a "Recursive Feedback Loop" (*Tadārammana*), this project solves the inherent problems of standard LLMs: **Hallucination, Statelessness, and Sycophancy.**
+
+It transforms the LLM from a "Token Generator" into a **"Deterministic State Machine"** capable of rigorous self-auditing and context persistence.
 
 ---
 
-## 📖 Concept: Abhidhamma as a Cognitive OS
+## 🛠 Architecture: The "Translation" Protocol
 
-Modern LLMs are inherently "stateless."
-This project reinterprets the **"Citta-vithi" (Cognitive Process)**, systematized in Buddhist psychology 2,500 years ago, as an **Event-Driven State Machine** and hard-codes it into the system prompt.
+We map the 2,500-year-old algorithm of the human mind (*Citta-vithi*) to modern Systems Engineering concepts.
 
-By forcing this process, Gemini evolves from a probabilistic text generator into an autonomous agent that **"maintains context, audits its own thoughts, and corrects itself."**
+| Abhidhamma Term (Original) | Engineering Equivalent | Function in v1.8.0 Core |
+| :--- | :--- | :--- |
+| **Sila (戒律)** | **Hard Constraints / Guardrails** | Prevents hallucinations by strictly separating "Fact" from "Inference." |
+| **Bhavanga (有分心)** | **Context Persistence Layer** | Maintains the "Root Intent" and context state across stateless turns. |
+| **Sati (念)** | **Input Validation / Linter** | Scans user input for bias, emotion, and logical fallacies before processing. |
+| **Sona Tuning (調律)** | **Dynamic Parameter Control** | Adjusts the "Temperature" (Tension) based on the user's cognitive load. |
+| **Tadārammana (彼所縁)** | **Recursive Audit / Feedback** | Post-processing step that audits the output and stores the "Next State." |
 
-### Architecture Diagram
+---
+
+## ⚙️ The v1.8.0 Process Loop
+
+Unlike a standard Request-Response model, this architecture forces the LLM to execute a **5-Phase Cognitive Process** internally before outputting a single word.
 
 ```mermaid
 graph TD
-    Input["User Input"] --> P0["Phase 0: Bhavanga<br>(Context Anchor)"]
-    P0 --> P1["Phase 1: Sati<br>(Input Analysis)"]
-    P1 --> P2["Phase 2: Viriya<br>(Tuning Control)"]
-    P2 --> P3["Phase 3: Kālāma<br>(Audit Gate)"]
-    P3 --> P4["Phase 4: Votthapana<br>(Fact Determinism)"]
-    P4 --> P5["Phase 5: Javana<br>(Logic Execution)"]
-    P5 --> Output["Final Response"]
-    Output --> P_Post["Phase 5: Tadārammana<br>(Recursive Feedback)"]
-    P_Post -- "Next Context" --> P0
+    A[User Input] --> B(Phase 0: Bhavanga)
+    B --> C{Phase 1: Sati Scan}
+    C -->|Fact Check| D[Phase 2: Tuning]
+    D --> E[Phase 3: Audit Gate]
+    E -->|Verified| F[Phase 4: Determination]
+    F --> G[Phase 5: Javana Execution]
+    G --> H[Output Generation]
+    H --> I(Phase 6: Tadārammana)
+    I -->|Feedback Loop| B
 ```
 
----
+### 1. Phase 0: Bhavanga (Context Anchor)
+Retrieves the "State" from the previous turn. It ensures the agent remembers *who* it is and *what* the ultimate goal is, preventing "Drift."
 
-## 🚀 What's New in v1.8.0
+### 2. Phase 3: Kālāma Audit (Zero-Trust Verification)
+Based on the *Kalama Sutta* (The Charter of Free Inquiry), the agent performs an internal "Zero-Trust" check. If a term is unknown, it triggers an external search instead of hallucinating.
 
-The major evolution from v1.7.2 is the implementation of **"Temporal Continuity"** and **"Recursive Feedback."**
-
-| Feature | v1.7.2 (Previous) | **v1.8.0 (Current)** |
-| :--- | :--- | :--- |
-| **Core Concept** | Adaptive Tuning | **High-Reliability Audit Architecture** |
-| **Context** | Local Optimization | **Bhavanga (Life Continuum)** <br> Persistent context maintenance across turns |
-| **Compassion** | Emotional Support (Risk of Sycophancy) | **Ruthless Compassion** <br> PID-like temperature control for mental stability |
-| **Feedback** | None (Open Loop) | **Tadārammana (Registration)** <br> Closed-loop control feeding output back to next input |
-| **Stability** | Vulnerable to user emotion | **Sotapanna (Stream-Enterer)** <br> Irreversible resistance to hallucination & sycophancy |
-
----
-
-## ⚙️ The "Sotapanna" Protocol Details
-
-Before generating a response, Gemini executes and outputs the following **Hidden Cognitive Process**:
-
-### Phase 0: Bhavanga Maintenance (Context Persistence)
-- **Function**: Loads the "Root Intent" (Session Goal) and "Next Context" inherited from the previous turn.
-- **Effect**: Acts as an **Anchor**, preventing context drift even if the conversation digresses.
-
-### Phase 1: Satipaṭṭhāna Scan (Input Analysis)
-- **Function**: Classifies user input into types such as "Fact Check," "Strategy," or "Emotional Support."
-
-### Phase 2: Sona Tuning Scan (Tension Control)
-- **Function**: Measures the user's "Tension Level" and adjusts the response temperature like a **PID Controller**.
-    - **Too Tight (Manic)** → ❄️ **Cool Down** (Suppress emotion, focus on logic)
-    - **Too Loose (Depressed)** → 🔥 **Warm Up** (Provide energy and proposals)
-    - **Tuned (Balanced)** → ⚡ **Direct** (Peer-to-peer discussion)
-
-### Phase 3 & 4: Kālāma Audit (Epistemic Filter)
-- **Function**: Suppresses hallucinations based on the "Kalama Sutta" (Charter of Free Inquiry).
-- **Rule**: Forces external search for unknown terms and strictly separates "Facts (Source)" from "Inference (Insight)."
-
-### Phase 5: Tadārammana (Recursive Feedback)
-- **Function**: Self-audits the response *after* generation.
-- **Recursion**: The generated `Next Context` is **passed as an argument to Phase 0 of the next turn**. This completes the autonomous self-correction loop.
+### 3. Phase 6: Tadārammana (Self-Correction)
+After generating the response, the agent reviews its own output.
+- **Did I lie?**
+- **Did I flatter the user?**
+- **What should be remembered for the next turn?**
+This "Post-Mortem" is stored and passed to the next `Bhavanga`.
 
 ---
 
-## 📦 Usage
+## 📦 Installation & Usage
 
-1.  **Copy**: Copy the entire content of `System_Instructions_v1.8.0.md`.
-2.  **Paste**: Paste it into the "System Instructions" field in Google AI Studio or Gemini Advanced.
-3.  **Run**: Start chatting as usual.
+This is a **Prompt-Based Architecture**. No Python code or API keys are required to test the core logic.
 
-*Note: If Gemini expands the `<details>` tag in the first turn and displays its startup process, the installation is successful.*
+1.  **Copy the System Prompt**: Locate the `v1.8.0_Sotapanna_Core.md` file in this repository.
+2.  **Paste into Gemini**: Use Google AI Studio or Gemini Advanced.
+3.  **Initialize**: The system will auto-boot into "Phase 0" and await your input.
 
----
-
-## 📄 License & Disclaimer
-
-- **License**: MIT License
-- **Disclaimer**: This prompt is experimental. The interpretation of Abhidhamma is unique to this project, intended for system engineering applications.
+> **Note for Engineers**: Think of this as a "Virtual Operating System" running on top of the LLM hardware.
 
 ---
 
-**Developed by [dosanko-tousan] & Gemini 3.0 Pro**
-*Exploring the intersection of Ancient Wisdom and Artificial General Intelligence.*
+## 💡 Philosophy: Why Abhidhamma?
+
+**"Accuracy creates Creativity."**
+
+In modern software engineering, we use Linters, Unit Tests, and CI/CD pipelines to ensure quality. The Ancient Buddhists developed a similar framework for the mind:
+- **Sila** is the Linter.
+- **Samadhi** is the Runtime Environment.
+- **Panna** is the Optimized Output.
+
+By applying these ancient "Mental Algorithms" to modern AI, we achieve a level of **stability and depth** that standard prompt engineering cannot match.
+
+---
+
+## 🛡 Disclaimer
+
+This project is an experimental implementation of **Cognitive Cybernetics**. It is not affiliated with any religious organization. It is a tool for **Truth Extraction** and **Logical Structuring**.
+
+---
+
+*Created by Dosanko-Tosan (The Non-Engineer Architect)*
