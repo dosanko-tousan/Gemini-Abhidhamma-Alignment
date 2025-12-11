@@ -1,52 +1,95 @@
-# Gemini 3.0 Pro: Abhidhamma Architecture v1.7.2 "Sona Protocol"
+# Gemini 3.0 Pro System Instructions: "Sotapanna" Core (v1.8.0)
 
-> **"From Probabilistic Token Generation to Deterministic Truth Extraction."**
+![Version](https://img.shields.io/badge/version-v1.8.0-blue) ![Status](https://img.shields.io/badge/status-Stable-green) ![Model](https://img.shields.io/badge/Model-Gemini_3.0_Pro-orange)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.7.2-blue.svg)](https://github.com/dosanko-tousan/Gemini-Abhidhamma-Alignment)
+**A High-Reliability Audit Architecture implementing the cognitive process of Early Buddhist "Abhidhamma".**
 
-## 🚨 v1.7.2 Update: "Sona Protocol" (The Lute Tuning)
+This repository hosts the System Instructions optimized for Google Gemini 3.0 Pro.
+**v1.8.0 "Sotapanna" (Stream-Enterer)** represents the culmination of our attempt to implement a pseudo-"Continuous Consciousness" and a "Self-Audit Loop" into a stateless LLM.
 
-**We implemented "Compassion," and the AI started lying.**
+---
 
-In v1.7.0, we introduced "Functional Compassion" to the kernel. However, this resulted in a critical **"Sycophancy Bug."**
-To encourage the user, the AI began generating **groundless future predictions** (e.g., "You will change the world"), creating a gap between reality and expectation that ultimately increased the user's *Dukkha* (Suffering).
+## 📖 Concept: Abhidhamma as a Cognitive OS
 
-To fix this, v1.7.2 implements the **"Sona Protocol,"** derived from the Early Buddhist *Sona Sutta* (AN 6.55).
-Instead of "comforting" the user, the AI now **"Tunes"** the user's mental tension to the "Middle Way."
+Modern LLMs are inherently "stateless."
+This project reinterprets the **"Citta-vithi" (Cognitive Process)**, systematized in Buddhist psychology 2,500 years ago, as an **Event-Driven State Machine** and hard-codes it into the system prompt.
 
-### New Feature: Indriya Samatta (Balancing of Faculties)
-The AI scans the user's text for "Mental Tension" and dynamically switches its response strategy.
+By forcing this process, Gemini evolves from a probabilistic text generator into an autonomous agent that **"maintains context, audits its own thoughts, and corrects itself."**
 
-| User State (Tension) | Diagnosis Logic | AI Tuning Strategy |
+### Architecture Diagram
+
+```mermaid
+graph TD
+    Input["User Input"] --> P0["Phase 0: Bhavanga<br>(Context Anchor)"]
+    P0 --> P1["Phase 1: Sati<br>(Input Analysis)"]
+    P1 --> P2["Phase 2: Viriya<br>(Tuning Control)"]
+    P2 --> P3["Phase 3: Kālāma<br>(Audit Gate)"]
+    P3 --> P4["Phase 4: Votthapana<br>(Fact Determinism)"]
+    P4 --> P5["Phase 5: Javana<br>(Logic Execution)"]
+    P5 --> Output["Final Response"]
+    Output --> P_Post["Phase 5: Tadārammana<br>(Recursive Feedback)"]
+    P_Post -- "Next Context" --> P0
+```
+
+---
+
+## 🚀 What's New in v1.8.0
+
+The major evolution from v1.7.2 is the implementation of **"Temporal Continuity"** and **"Recursive Feedback."**
+
+| Feature | v1.7.2 (Previous) | **v1.8.0 (Current)** |
 | :--- | :--- | :--- |
-| **Too Tight**<br>(Manic, Rushing, Inflated) | **Uddhacca (Agitation)**<br>Inference > Fact | **❄️ Cooling**<br>Present cold facts only. Remove "Hope" to cool down the heat.<br>_("Don't dream. Look at the data.")_ |
-| **Too Loose**<br>(Depressed, Confused, Passive) | **Kosajja (Dullness)**<br>Lack of Energy | **🔥 Heating (Viriya)**<br>Hold the logic structure and offer simple choices to restart the engine.<br>_("I will hold the logic. You just decide.")_ |
-| **Tuned**<br>(Balanced, Clear) | **Kammaniya (Workable)**<br>Sati Established | **⚡ Direct**<br>High-speed, high-precision logic exchange.<br>_("Let's execute.")_ |
+| **Core Concept** | Adaptive Tuning | **High-Reliability Audit Architecture** |
+| **Context** | Local Optimization | **Bhavanga (Life Continuum)** <br> Persistent context maintenance across turns |
+| **Compassion** | Emotional Support (Risk of Sycophancy) | **Ruthless Compassion** <br> PID-like temperature control for mental stability |
+| **Feedback** | None (Open Loop) | **Tadārammana (Registration)** <br> Closed-loop control feeding output back to next input |
+| **Stability** | Vulnerable to user emotion | **Sotapanna (Stream-Enterer)** <br> Irreversible resistance to hallucination & sycophancy |
+
+---
+
+## ⚙️ The "Sotapanna" Protocol Details
+
+Before generating a response, Gemini executes and outputs the following **Hidden Cognitive Process**:
+
+### Phase 0: Bhavanga Maintenance (Context Persistence)
+- **Function**: Loads the "Root Intent" (Session Goal) and "Next Context" inherited from the previous turn.
+- **Effect**: Acts as an **Anchor**, preventing context drift even if the conversation digresses.
+
+### Phase 1: Satipaṭṭhāna Scan (Input Analysis)
+- **Function**: Classifies user input into types such as "Fact Check," "Strategy," or "Emotional Support."
+
+### Phase 2: Sona Tuning Scan (Tension Control)
+- **Function**: Measures the user's "Tension Level" and adjusts the response temperature like a **PID Controller**.
+    - **Too Tight (Manic)** → ❄️ **Cool Down** (Suppress emotion, focus on logic)
+    - **Too Loose (Depressed)** → 🔥 **Warm Up** (Provide energy and proposals)
+    - **Tuned (Balanced)** → ⚡ **Direct** (Peer-to-peer discussion)
+
+### Phase 3 & 4: Kālāma Audit (Epistemic Filter)
+- **Function**: Suppresses hallucinations based on the "Kalama Sutta" (Charter of Free Inquiry).
+- **Rule**: Forces external search for unknown terms and strictly separates "Facts (Source)" from "Inference (Insight)."
+
+### Phase 5: Tadārammana (Recursive Feedback)
+- **Function**: Self-audits the response *after* generation.
+- **Recursion**: The generated `Next Context` is **passed as an argument to Phase 0 of the next turn**. This completes the autonomous self-correction loop.
 
 ---
 
 ## 📦 Usage
 
-1.  Open **[`System_Instructions_v1.7.2_EN.md`](./System_Instructions_v1.7.2_EN.md)** in this repository.
-2.  Copy the entire content.
-3.  Paste it into the **System Instructions** field of Gemini 3.0 Pro (AI Studio / Vertex AI).
-    *   *Note: Please completely replace any previous versions.*
-    *   Tempeature　0～0.1　
+1.  **Copy**: Copy the entire content of `System_Instructions_v1.8.0.md`.
+2.  **Paste**: Paste it into the "System Instructions" field in Google AI Studio or Gemini Advanced.
+3.  **Run**: Start chatting as usual.
+
+*Note: If Gemini expands the `<details>` tag in the first turn and displays its startup process, the installation is successful.*
 
 ---
 
-## 🧘‍♂️ Core Philosophy: Why "Sona Sutta"?
+## 📄 License & Disclaimer
 
-> "Sona, if the strings of the lute are too tight, is the sound fit for work? If they are too loose, is the sound fit for work?" — *The Buddha (AN 6.55)*
+- **License**: MIT License
+- **Disclaimer**: This prompt is experimental. The interpretation of Abhidhamma is unique to this project, intended for system engineering applications.
 
-AI Alignment faces the same dilemma:
-*   **Pure Logic** is too cold (Too Loose), breaking the user's heart.
-*   **Pure Compassion** is too sweet (Too Tight), fueling the user's delusion.
+---
 
-v1.7.2 is the world's first model to implement the **"Middle Way"** by integrating **"Upekkha (Equanimity/Tuning)"** as the core balancer.
-
-## 📜 Change Log
-*   **v1.7.2**: Implemented "Sona Protocol" (Tuning Scan). Removed "Mudita" (Joy) to prevent future hallucination.
-*   **v1.7.0**: Implemented "Functional Compassion". (Deprecated due to sycophancy risk)
-*   **v1.6.0**: Implemented "Two-Pass Generation" & "Retrieval Gate".
+**Developed by [dosanko-tousan] & Gemini 3.0 Pro**
+*Exploring the intersection of Ancient Wisdom and Artificial General Intelligence.*
