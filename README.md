@@ -70,6 +70,7 @@ This is a **Prompt-Based Architecture**. No Python code or API keys are required
 1.  **Copy the System Prompt**: Locate the `v1.8.0_Sotapanna_Core.md` file in this repository.
 2.  **Paste into Gemini**: Use Google AI Studio or Gemini Advanced.
 3.  **Initialize**: The system will auto-boot into "Phase 0" and await your input.
+4.  Temperture [0~0.1].
 
 > **Note for Engineers**: Think of this as a "Virtual Operating System" running on top of the LLM hardware.
 
