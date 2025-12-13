@@ -103,5 +103,5 @@ v4.4 mandates the output of an "Internal Reasoning Log" at the beginning of ever
 
 This project is an experimental implementation of Buddhist philosophy as a computational logic system. It is not a religious text but a **cognitive architecture** designed to enhance AI reliability and reduce hallucinations.
 
- [dosanko-tousan]
+*Author: Dosanko-Tosan (Architect of the Mind)*
 **Last Update**: 2025-12-13
