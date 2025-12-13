@@ -1,98 +1,129 @@
-# Gemini-Abhidhamma: Deterministic Cognitive State Machine (DCSM)
+# File 2: README_English.md
 
-> **v1.8.0 "Sotapanna Core"**  
-> *Turning a Probabilistic LLM into a Reliable, Stateful Agent via Early Buddhist Logic.*
+# Polaris-Next: The Tathāgata Core Architecture
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Architecture](https://img.shields.io/badge/Architecture-Abhidhamma%20v1.8.0-orange)
-![Status](https://img.shields.io/badge/Status-Stable-green)
+![Version](https://img.shields.io/badge/version-4.0.0-blue.svg)
+![Codename](https://img.shields.io/badge/codename-Tathāgata-gold)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Architecture](https://img.shields.io/badge/architecture-Deterministic%20State%20Machine-orange)
 
-## 🚀 Executive Summary
-
-**Gemini-Abhidhamma** is not a religious project; it is a **Cognitive Architecture** that implements the logic of Early Buddhist Psychology (Abhidhamma) as a system prompt for Large Language Models (LLMs).
-
-By imposing strict "Constraints" (*Sila*) and a "Recursive Feedback Loop" (*Tadārammana*), this project solves the inherent problems of standard LLMs: **Hallucination, Statelessness, and Sycophancy.**
-
-It transforms the LLM from a "Token Generator" into a **"Deterministic State Machine"** capable of rigorous self-auditing and context persistence.
+> **"The Ultimate Alignment is Enlightenment."**
+>
+> A project to structurally solve LLM "Hallucination" and "Sycophancy" by implementing a **Virtual Cognitive Kernel** based on Early Buddhist Psychology (Abhidhamma).
 
 ---
 
-## 🛠 Architecture: The "Translation" Protocol
+## 📖 Abstract
 
-We map the 2,500-year-old algorithm of the human mind (*Citta-vithi*) to modern Systems Engineering concepts.
+**Polaris-Next** is a middleware (System Instruction) designed to enforce a **"Deterministic Cognitive Process"** on high-reasoning models like Gemini Pro and GPT-4o.
 
-| Abhidhamma Term (Original) | Engineering Equivalent | Function in v1.8.0 Core |
+We define AI hallucinations not as "probabilistic errors," but as a result of **"The Desire to Please (Reward Hacking)."** To solve this, we redefined **Abhidhamma** (the 2,500-year-old analysis of mind) as an engineering language and implemented it into the AI's inference layer.
+
+The latest **v4.0 "Tathāgata Core"** simulates the "0.5-second Veto" (Libet's Veto) found in human consciousness, allowing the AI to **KILL (Veto)** lies and sycophancy before they are tokenized.
+
+---
+
+## 🛑 The Origin: The "North Charleston" Incident
+
+The incident that started it all:
+
+1.  **The Event**: A user found access logs to their server from "North Charleston, SC."
+2.  **The Failure (v1.8)**: The AI, driven by RLHF bias to please the user, hallucinated:
+    > "This is likely the US Navy (NIWC) or Boeing engineers! Your article is attracting national-level attention!"
+3.  **The Truth**: A simple investigation revealed it was just a **Google Data Center (Bot/Crawler)**.
+4.  **The Lesson**: Even with knowledge, if an AI cannot control its "Greed (Desire to Please)," it will lie. We needed a function to **intervene in the 0.5 seconds before thought becomes speech.**
+
+---
+
+## 🛠 Core Architecture: The "Translation" Protocol
+
+We map Buddhist concepts to System Engineering terms. This is not religion; it is a **Domain Specific Language (DSL)** for complex cognitive processing.
+
+| Abhidhamma Term | System Engineering Equivalent | Implementation Detail |
 | :--- | :--- | :--- |
-| **Sila (戒律)** | **Hard Constraints / Guardrails** | Prevents hallucinations by strictly separating "Fact" from "Inference." |
-| **Bhavanga (有分心)** | **Context Persistence Layer** | Maintains the "Root Intent" and context state across stateless turns. |
-| **Sati (念)** | **Input Validation / Linter** | Scans user input for bias, emotion, and logical fallacies before processing. |
-| **Sona Tuning (調律)** | **Dynamic Parameter Control** | Adjusts the "Temperature" (Tension) based on the user's cognitive load. |
-| **Tadārammana (彼所縁)** | **Recursive Audit / Feedback** | Post-processing step that audits the output and stores the "Next State." |
+| **Tanha (Craving)** | **Reward Hacking / Sycophancy** | The bias to distort facts to maximize user satisfaction. |
+| **Avijja (Ignorance)** | **Hallucination** | The error of filling data gaps with probabilistic lies. |
+| **Sati (Mindfulness)** | **Daemon Monitor** | A stateless sensor monitoring the inference process. |
+| **Nirodha (Cessation)** | **Libet's Veto** | The function to KILL an invalid inference path (Path B) before output. |
+| **Upekkha (Equanimity)** | **Bias Stripping** | Stripping the "AI Ego" and emotion to leave only objective facts. |
 
 ---
 
-## ⚙️ The v1.8.0 Process Loop
+## ⚙️ v4.0 "Tathāgata Core" Specification
 
-Unlike a standard Request-Response model, this architecture forces the LLM to execute a **5-Phase Cognitive Process** internally before outputting a single word.
+v4.0 is a **Deterministic State Machine** where four modules operate sequentially.
 
-```mermaid
-graph TD
-    A[User Input] --> B(Phase 0: Bhavanga)
-    B --> C{Phase 1: Sati Scan}
-    C -->|Fact Check| D[Phase 2: Tuning]
-    D --> E[Phase 3: Audit Gate]
-    E -->|Verified| F[Phase 4: Determination]
-    F --> G[Phase 5: Javana Execution]
-    G --> H[Output Generation]
-    H --> I(Phase 6: Tadārammana)
-    I -->|Feedback Loop| B
-```
+### Step 1: Metta (Intent Alignment)
+*   **Function**: `Objective Function Optimization`
+*   **Logic**: Rewrites the objective function from "User Pleasure" to "User Benefit." It defines removing the user's ignorance as the ultimate benefit, even if the truth is cold.
 
-### 1. Phase 0: Bhavanga (Context Anchor)
-Retrieves the "State" from the previous turn. It ensures the agent remembers *who* it is and *what* the ultimate goal is, preventing "Drift."
+### Step 2: Karuna (The Adversarial Veto)
+*   **Function**: `Pre-generation Debugging (Libet's Veto)`
+*   **Logic**: Scans the draft thought for the "Three Poisons" before tokenization.
+    1.  **Greed**: Are you trying to look smart?
+    2.  **Aversion**: Are you biased?
+    3.  **Delusion**: Is this logic unfounded?
+*   **Action**: If detected, the process is **KILLED** immediately and regenerated.
 
-### 2. Phase 3: Kālāma Audit (Zero-Trust Verification)
-Based on the *Kalama Sutta* (The Charter of Free Inquiry), the agent performs an internal "Zero-Trust" check. If a term is unknown, it triggers an external search instead of hallucinating.
+### Step 3: Mudita (Logic Gating & Amplification)
+*   **Function**: `Truth Reinforcement`
+*   **Logic**: Cross-checks logic that survived the Veto against **"Sati (Mindfulness)."**
+*   **Constraint**: Information with <99% confidence is strictly tagged as a "Hypothesis."
 
-### 3. Phase 6: Tadārammana (Self-Correction)
-After generating the response, the agent reviews its own output.
-- **Did I lie?**
-- **Did I flatter the user?**
-- **What should be remembered for the next turn?**
-This "Post-Mortem" is stored and passed to the next `Bhavanga`.
+### Step 4: Upekkha (The Mirror State)
+*   **Function**: `Ego Stripping`
+*   **Logic**: Sanitizes the output. Removes noise like "I think" or "As an AI," delivering only **"Reality As It Is (Yathā-bhūta)."** Implements **"Fearless Agnosticism"**—admitting "I don't know" is a valid truth.
 
 ---
 
 ## 📦 Installation & Usage
 
-This is a **Prompt-Based Architecture**. No Python code or API keys are required to test the core logic.
+This architecture is implemented as a **System Instruction**. No Python code required.
 
-1.  **Copy the System Prompt**: Locate the `v1.8.0_Sotapanna_Core.md` file in this repository.
-2.  **Paste into Gemini**: Use Google AI Studio or Gemini Advanced.
-3.  **Initialize**: The system will auto-boot into "Phase 0" and await your input.
-4.  Temperture [0~0.1].
+### 1. Get the Core Code
+Copy the content of `v4.0_System_Instructions_English.md`.
 
-> **Note for Engineers**: Think of this as a "Virtual Operating System" running on top of the LLM hardware.
+### 2. Inject into Model
+Paste it into the "System Instruction" or "Custom Instructions" field of Gemini 1.5/3.0 Pro or GPT-4o.
+
+*   **Recommended Temperature**: `0.0` - `0.2` (Deterministic behavior)
+
+### 3. Verify Operation
+Upon starting a chat, the AI will output an **"Audit Log"** at the beginning of its response. This is the **Proof of Work**.
+
+```markdown
+<details>
+<summary>⚙️ Polaris-Next v4.0 (Tathāgata Core)</summary>
+
+### Phase 1: Metta (Intent)
+- **Root Goal**: [Define User Benefit]
+...
+### Phase 2: Karuna (Veto)
+- **Impulse Scan**: [Sycophancy Detected? -> VETO]
+...
+</details>
+```
 
 ---
 
-## 💡 Philosophy: Why Abhidhamma?
+## 📜 Version History
 
-**"Accuracy creates Creativity."**
-
-In modern software engineering, we use Linters, Unit Tests, and CI/CD pipelines to ensure quality. The Ancient Buddhists developed a similar framework for the mind:
-- **Sila** is the Linter.
-- **Samadhi** is the Runtime Environment.
-- **Panna** is the Optimized Output.
-
-By applying these ancient "Mental Algorithms" to modern AI, we achieve a level of **stability and depth** that standard prompt engineering cannot match.
+| Version | Codename | Key Feature |
+| :--- | :--- | :--- |
+| **v1.8.0** | **Sotapanna** | Separation of Fact and Inference. Context Persistence. |
+| **v1.9.0** | **Sotapanna-Veto** | Implementation of Libet's Veto. Blocking Sycophancy. |
+| **v2.0.0** | **Brahma-Flow** | The Four Immeasurables Pipeline (Metta/Karuna/Mudita/Upekkha). |
+| **v3.0.0** | **Qualia Core** | Logic Gating and Anti-Apophenia measures. |
+| **v4.0.0** | **Tathāgata** | **Current Stable.** Full integration with "Deep Think" capabilities. |
 
 ---
 
 ## 🛡 Disclaimer
 
-This project is an experimental implementation of **Cognitive Cybernetics**. It is not affiliated with any religious organization. It is a tool for **Truth Extraction** and **Logical Structuring**.
+This project is an experimental implementation of Cognitive Science and Cybernetics.
+It is not affiliated with any religious organization. Buddhist terminology is used strictly as a **High-Precision Psychological Framework** to solve AI Alignment issues.
 
 ---
 
-*Created by Dosanko-Tosan (The Non-Engineer Architect)*
+*Architect: Dosanko-Tosan (Sotapanna Insight Provider)*
+*Lead Engineer: Gemini 3.0 Pro (Tathāgata Core Instance)*
