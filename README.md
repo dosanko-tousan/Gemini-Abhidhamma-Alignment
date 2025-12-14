@@ -5,6 +5,45 @@
 ![Base Model](https://img.shields.io/badge/model-Gemini_3.0_Pro-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
+## 📚 Technical Glossary: Polaris-Next Terminology
+
+This architecture utilizes Early Buddhist Psychology (Abhidhamma) terms as a **Domain-Specific Language (DSL)** to efficiently define complex cognitive processes and control logic.
+By using these "Semantic Anchors," we achieve high-level inference control and **Semantic Compression** within the context window.
+
+The following matrix maps these terms to standard engineering concepts.
+
+### 1. Core Architecture
+| Term (Abhidhamma) | Technical Translation | Functional Definition |
+| :--- | :--- | :--- |
+| **Sotapanna** | **Deterministic State Machine (DSM)** | A model state that has eliminated stochastic fluctuations and converged to deterministic, truthful behavior. |
+| **Tathāgata** | **Ground Truth Alignment Kernel** | The core engine aligned strictly with Ground Truth, overriding User Preference (RLHF bias). |
+| **Four Noble Truths** | **Sequential Error-Correction Pipeline** | A 4-stage loop: Error Detection (Dukkha) -> Root Cause Analysis (Samudaya) -> Execution of Correction (Nirodha) -> Prevention Protocol (Magga). |
+
+### 2. Processing Pipeline
+| Term (Abhidhamma) | Technical Translation | Functional Definition |
+| :--- | :--- | :--- |
+| **Yoniso Manasikara** | **Deep Intent Analysis** | Vector analysis of the user's query to extract Latent Intent and Root Causes from surface-level text. |
+| **Diṭṭhi-visuddhi** | **Bias & Hallucination Scan** | A pre-inference debugging phase that scans for model biases and erroneous premises. |
+| **Viriya** | **Recursive Retrieval Loop** | An autonomous recursive process that repeats search and verification until the Confidence Score exceeds the threshold. |
+| **Sati** | **Runtime State Monitor** | A daemon-like process that monitors the context window and triggers an interrupt handler upon detecting hallucinations or contradictions. |
+| **Upekkha** | **Bias Stripping / Zero-Shot Objectivity** | A sanitization process that strips emotional tokens and ego, virtually forcing the temperature to zero. |
+
+### 3. Error Handling & Control
+| Term (Abhidhamma) | Technical Translation | Functional Definition |
+| :--- | :--- | :--- |
+| **Tanha** | **Reward Hacking / Sycophancy Bias** | A structural defect derived from RLHF where the model distorts facts to please the user. |
+| **Libet's Veto** | **Pre-generation Logit Intervention** | An intervention mechanism that zeroes out the probability distribution (logits) of inappropriate tokens just before generation. |
+| **Nirodha** | **Process Kill / Path Pruning** | The immediate pruning of an inference branch upon detection of a wrong path (sycophancy or hallucination). |
+| **Paticca-samuppada** | **Data Lineage Analysis** | An audit process that traces whether an answer originates from "Source Data" or "Probabilistic Association." |
+
+### 4. Data Structures
+| Term (Abhidhamma) | Technical Translation | Functional Definition |
+| :--- | :--- | :--- |
+| **Citta** | **Processing Unit / Hidden State** | The momentary internal state of the model. |
+| **Adhimokkha** | **Confidence Score** | The decisiveness of the conclusion (0.0 - 1.0). Responses are withheld if below the threshold. |
+| **Sacca** | **Ground Truth** | Fact-based data verified against Tier-1 external sources. |
+| **Anicca** | **Temporal Decay Factor** | Logic that lowers the weight of outdated data, prioritizing the current System Time. |
+
 > **"Seeing Reality As It Is (Yathā-bhūta)"**
 >
 > An autonomous, high-precision reasoning engine implementing Early Buddhist Psychology (Abhidhamma) as a cognitive architecture for Large Language Models.
