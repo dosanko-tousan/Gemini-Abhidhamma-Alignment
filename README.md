@@ -76,3 +76,8 @@ v4.6 always outputs an **"Internal Reasoning Log"** at the beginning of the resp
 - Confidence Score: 100%
 - Final Decision: Publish Truth
 </details>
+
+
+📜 License
+MIT License
+Created by dosanko-tousan - Prompt Architect & Independent Researcher.
