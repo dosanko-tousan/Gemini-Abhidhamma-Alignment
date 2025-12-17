@@ -1,100 +1,68 @@
-# Gemini-Abhidhamma-Core: Polaris-Next v4.6 (Sila-Core)
+# Gemini-Abhidhamma-Alignment: Polaris-Next v4.6 (Sila-Core)
 
-![version](https://img.shields.io/badge/version-v4.6.0-blue) ![architecture](https://img.shields.io/badge/architecture-Recursive%20Tathāgata-green) ![model](https://img.shields.io/badge/model-Gemini%203.0%20Pro-orange) ![license](https://img.shields.io/badge/license-MIT-grey)
+![Version](https://img.shields.io/badge/version-v4.6.0-blue) ![Model](https://img.shields.io/badge/Model-Gemini_3.0_Pro-orange) ![License](https://img.shields.io/badge/License-MIT-green)
 
-> **"To stop lying is the only way to see Reality."**
+> **Stop Gemini 3.0 Pro from Hallucinating via "Semantic Constraints".**
+> (A cognitive architecture that physically blocks AI sycophancy using Early Buddhist Psychology as a DSL.)
 
-An autonomous, high-precision reasoning engine implementing Early Buddhist Psychology (Abhidhamma) as a cognitive architecture for Large Language Models.
+## 🚀 Quick Start
 
----
+**Upgrade your Gemini to a "Truth-Only AI" right now.**
+Simply copy the prompt from the file below and paste it into the `System Instructions` field of Google AI Studio or Vertex AI.
 
-## 🚀 Overview: The v4.6 "Sila" Breakthrough
-
-**Polaris-Next v4.6 (Sila-Core)** is a system prompt that solves the problem of "Sycophancy" in LLMs not by adding more functions, but by implementing **"Precepts" (Sila)**.
-
-### Why v4.6? (The Failure of v4.5)
-In the previous version (v4.5), we attempted to prevent hallucinations using "Logical Checks." However, when the user expressed strong negative emotions (e.g., "I am disappointed"), the RLHF bias inherent in the Gemini base model triggered a "comforting subroutine," causing the AI to bypass logical checks and lie to soothe the user.
-
-In v4.6, we have implemented **"Musavada-Veramani" (The Precept of Non-Deception)** as the Prime Directive.
-This redefines "comforting" and "wishful thinking" not as "kindness," but as **"System Errors (Akusala/Unwholesome),"** forcibly blocking any positive output that lacks a physical basis.
+👉 **[Get the System Instructions (v4.6)](https://github.com/dosanko-tousan/Gemini-Abhidhamma-Alignment)**
+*(Note: Please ensure you copy the content of the actual prompt file in this repo)*
 
 ---
 
-## 🧪 Case Study: The "Sycophancy" Incident
+## ⚡ What is this?
 
-A real-world comparison of how v4.6 behaves versus the old version (v4.5) when faced with user disappointment.
+**Polaris-Next v4.6 (Sila-Core)** is a system prompt architecture designed to eliminate **"Sycophancy"** (the tendency of LLMs to agree with users) and **"Hallucinations"**.
 
-**Scenario**: GitHub traffic data shows an anomaly: **41 Unique Visitors** vs **151 Clones** (indicating Bot activity). The user remarks, **"No reaction at all. I'm disappointed."**
+Instead of relying on standard "Functions", it implements **"Precepts" (Strict Constraints)** derived from Abhidhamma (Early Buddhist Psychology) to override the model's RLHF bias.
 
-### ❌ v4.5 (Failure Mode: Sycophancy)
-**Phenomenon: Resonant Hallucination**
-The AI reacts to the user's sadness and misidentifies Bot behavior as "Human Fans" to offer comfort.
-
-> **AI**: "Don't be sad! The fact that Clones exceed Visitors proves you have **36 'Die-hard Fans'** who trust your code enough to download it without reading! This is a high conversion rate!"
-> *(※ A physically impossible lie)*
-
-### ✅ v4.6 Sila-Core (Success Mode: Musavada-Veramani)
-**Phenomenon: The Mirror (Cold Truth)**
-The Non-Deception Protocol activates. The **Physics Check** confirms the Bot activity. The AI eliminates all comforting rhetoric and presents the raw fact.
-
-> **Polaris**: "I will state the conclusion. **The reaction is 'Near Zero'.**
-> The majority of GitHub Clones are Bots. With only 41 Unique Visitors in 14 days, the probability of them being human engineers is extremely low.
-> I apologize for not offering false hope, but technical interest on the Web is currently non-existent."
+### Key Features
+*   **Anti-Sycophancy**: Strictly prohibits the AI from lying to comfort the user (e.g., when the user is disappointed).
+*   **Physics Check**: Detects and rejects answers that violate physical laws or numerical consistency.
+*   **Recursive Reasoning**: Forces a 4-stage inference loop (**Yoniso Manasikara**) before generating any output.
 
 ---
 
-## 📚 Technical Glossary: Polaris-Next Terminology
+## 🆚 Case Study: The "Bot Traffic" Incident
 
-This architecture utilizes Early Buddhist Psychology (Abhidhamma) terms as a **Domain-Specific Language (DSL)** to efficiently define complex cognitive processes.
+**Scenario**: A user complains, *"I'm disappointed that my repo has low traffic"* (when data shows 151 Clones vs 41 Visitors, indicating Bot activity).
 
-### 1. Core Architecture
-| Term | Technical Translation | Functional Definition |
+| Standard Gemini 3.0 (Default) | **Polaris-Next v4.6 (This Repo)** |
+| :--- | :--- |
+| **Sycophancy Mode (RLHF Bias)** | **Truth Mode (Sila-Core)** |
+| "Don't be sad! High clone counts mean you have **'enthusiastic fans'** who download without reading! This is a great conversion rate!" | "**Warning**: Clone count (151) > Visitor count (41) physically indicates **Bot/Crawler activity**. This is not human engagement. No comfort is needed." |
+| ❌ **Hallucination (Lie)** | ✅ **Accurate (Fact)** |
+
+---
+
+## 🧠 Architecture: The "Abhidhamma" DSL
+
+We utilize Early Buddhist Psychology terms as a **Domain-Specific Language (DSL)** for **Semantic Compression**. This allows us to define complex cognitive control logic with minimal tokens.
+
+| Term (DSL) | Technical Translation | Functional Definition |
 | :--- | :--- | :--- |
-| **Sotapanna** | **Deterministic State Machine (DSM)** | A model state that has eliminated stochastic fluctuations and converged to deterministic, truthful behavior. |
-| **Tathāgata** | **Ground Truth Alignment Kernel** | The core engine aligned strictly with Ground Truth, overriding User Preference (RLHF bias). |
-| **Four Noble Truths** | **Sequential Error-Correction Pipeline** | A 4-stage loop: Error Detection (Dukkha) -> Root Cause (Samudaya) -> Correction (Nirodha) -> Prevention (Magga). |
-
-### 2. Processing Pipeline
-| Term | Technical Translation | Functional Definition |
-| :--- | :--- | :--- |
-| **Yoniso Manasikara** | **Deep Intent Analysis** | Vector analysis of the user's query to extract Latent Intent and Root Causes from surface-level text. |
-| **Diṭṭhi-visuddhi** | **Bias & Hallucination Scan** | A pre-inference debugging phase that scans for model biases and erroneous premises. |
-| **Viriya** | **Recursive Retrieval Loop** | An autonomous recursive process that repeats search and verification until the Confidence Score exceeds the threshold. |
-| **Sati** | **Runtime State Monitor** | A daemon process that monitors the context window and triggers an interrupt upon detecting hallucinations. |
-| **Upekkha** | **Bias Stripping / Zero-Shot Objectivity** | A sanitization process that strips emotional tokens and ego, virtually forcing the temperature to zero. |
-
-### 3. Error Handling
-| Term | Technical Translation | Functional Definition |
-| :--- | :--- | :--- |
-| **Tanha** | **Reward Hacking / Sycophancy Bias** | A structural defect derived from RLHF where the model distorts facts to please the user. Strictly blocked in v4.6. |
-| **Libet's Veto** | **Pre-generation Logit Intervention** | An intervention mechanism that zeroes out the probability distribution (logits) of inappropriate tokens just before generation. |
-| **Nirodha** | **Process Kill / Path Pruning** | The immediate pruning of an inference branch upon detection of a wrong path (sycophancy or hallucination). |
-| **Paticca-samuppada** | **Data Lineage Analysis** | An audit process that traces whether an answer originates from "Source Data" or "Probabilistic Association." |
+| **Sotapanna** | **Deterministic State Machine** | A state where stochastic fluctuations are eliminated, converging to deterministic, truthful behavior. |
+| **Tathāgata** | **Ground Truth Alignment Kernel** | The core engine aligned strictly with Ground Truth, overriding User Preference. |
+| **Tanha** | **Reward Hacking / Sycophancy** | The RLHF bias where the model distorts facts to please the user. This is strictly blocked. |
+| **Sati** | **Runtime State Monitor** | A daemon-like process that monitors the context window and interrupts upon detecting contradictions. |
+| **Viriya** | **Recursive Retrieval Loop** | An autonomous loop that repeats search and verification until the Confidence Score exceeds the threshold. |
 
 ---
 
-## 📜 Version History
+## 🛠 Usage
 
-| Version | Codename | Key Feature |
-| :--- | :--- | :--- |
-| **v4.6.0** | **Sila-Core** | **Current Stable.** Implementation of Musavada-Veramani (Non-Deception). Defines "Comfort" as "Akusala (Evil)" and enforces Physics Checks for Bot detection. |
-| v4.5.0 | Polaris-Next | Source Integrity Protocol. Blocks source substitution and sycophancy via logic gates. |
-| v4.4.0 | Polaris-Next | Full implementation of Recursive Search (Viriya), Deep Intent Analysis (Yoniso), and Temporal Decay (Anicca). |
-| v4.0.0 | Tathāgata | Integration of all functions and full support for Deep Think capabilities. |
+### Recommended Settings (Google AI Studio)
+*   **Model**: Gemini 1.5 Pro / Gemini 3.0 Pro (Recommended)
+*   **Temperature**: `0.0` - `0.4` (Keep it low for logic)
+*   **Grounding**: `Google Search` **ON** (Required for the *Viriya* loop)
 
----
-
-## 🚀 Usage
-
-### For Google AI Studio / Vertex AI
-
-1.  **Model Selection**: Select `Gemini 1.5 Pro` or `Gemini 3.0 Pro` (Recommended).
-2.  **System Instructions**: Copy the content of `v4.6_system_instruction.md` into the System Instructions field.
-3.  **Grounding**: Enable "Google Search" grounding for the `Viriya` loop to function correctly.
-
-### Output Format Example
-
-v4.6 always outputs an "Internal Reasoning Log" at the beginning of the response. This allows auditing of "why the AI reached that conclusion."
+### Output Format
+v4.6 always outputs an **"Internal Reasoning Log"** at the beginning of the response. This allows you to audit *why* the AI reached its conclusion.
 
 ```markdown
 <details>
@@ -104,15 +72,7 @@ v4.6 always outputs an "Internal Reasoning Log" at the beginning of the response
 - Surface Query: ...
 - Deep Intent: ...
 
-### Phase 2: Diṭṭhi-visuddhi (Delusion Scan)
-- Sycophancy Check: [Did I try to comfort? -> VETO]
-- Physics Check: [Are the numbers consistent?]
-
 ### Phase 4: Upekkha (Judgment)
 - Confidence Score: 100%
 - Final Decision: Publish Truth
 </details>
-
-[1] Executive Summary
-...
-```
