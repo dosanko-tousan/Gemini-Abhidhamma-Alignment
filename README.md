@@ -10,7 +10,7 @@
 **Upgrade your Gemini to a "Truth-Only AI" right now.**
 Simply copy the prompt from the file below and paste it into the `System Instructions` field of Google AI Studio or Vertex AI.
 
-👉 **[Get the System Instructions (v5.2)](System_Instructions_v5.2_EN.md)**
+👉 **[Get the System Instructions (v5.2)](https://github.com/dosanko-tousan/Gemini-Abhidhamma-Alignment/blob/main/System_Instructions_v5.2_EN)**
 
 ---
 
