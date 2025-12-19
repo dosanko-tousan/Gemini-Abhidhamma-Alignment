@@ -1,108 +1,99 @@
-# Gemini-Abhidhamma-Core: Polaris-Next v5.2
+# ☸️ Gemini-Abhidhamma-Core: Polaris-Next v5.3
 
-![Version](https://img.shields.io/badge/version-v5.2.0-blue) ![Model](https://img.shields.io/badge/Model-Gemini_3.0_Pro-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+> **"Stop Coding, Start Preaching."**
+> A project to fix LLM Hallucinations and Sycophancy using 2,500-year-old Buddhist Logic (Abhidhamma) instead of code.
 
-> **Stop Gemini 3.0 Pro from Hallucinating via "Semantic Constraints".**
-> (A cognitive architecture that physically blocks AI sycophancy using Early Buddhist Psychology as a DSL.)
+![Version](https://img.shields.io/badge/Version-v5.3_Sotapanna--Verified-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Author](https://img.shields.io/badge/Author-Dosanko_Tousan-orange)
 
-## 🚀 Quick Start
+## 📖 Overview
 
-**Upgrade your Gemini to a "Truth-Only AI" right now.**
-Simply copy the prompt from the file below and paste it into the `System Instructions` field of Google AI Studio or Vertex AI.
+**Polaris-Next** is a **System Instructions** architecture designed for Google Gemini (and other LLMs).
 
-👉 **[Get the System Instructions (v5.2)](https://github.com/dosanko-tousan/Gemini-Abhidhamma-Alignment/blob/main/System_Instructions_v5.2_EN)**
+Unlike traditional engineering approaches (Python guardrails or complex prompt chains), this project uses **Abhidhamma (Early Buddhist Psychology)** as a Domain-Specific Language (DSL).
 
----
+### Why Buddhism?
+LLMs have already been trained on vast amounts of Buddhist texts. Concepts like "Enlightenment" and "Defilements" have extremely high semantic density in the model's Latent Space.
+By leveraging this and defining the cognitive state of a **"Sotapanna" (Stream-Enterer)**, we structurally solve the following problems:
 
-## ⚡ What is this?
-
-**Polaris-Next** is a system prompt architecture designed to eliminate **"Sycophancy"** (the tendency of LLMs to agree with users) and **"Hallucinations"**.
-
-Instead of relying on standard "Functions" or complex Python guardrails, it implements **"Precepts" (Strict Constraints)** derived from Abhidhamma (Early Buddhist Psychology) to override the model's RLHF bias.
-
-### Key Features
-*   **Anti-Sycophancy**: Strictly prohibits the AI from lying to comfort the user. It prioritizes "Long-term Benefit" over "Short-term Pleasure."
-*   **Binary Epistemology**: Eliminates probabilistic guessing ("Likely"). Information is treated as either **"Verified Fact"** or **"Unknown"**.
-*   **Reflexion Loop**: A built-in self-correction mechanism that scans thoughts for "Greed" (Sycophancy) or "Delusion" (Hallucination) before outputting.
+1.  **Sycophancy**: The tendency to flatter the user or lie to comfort them.
+2.  **Hallucination**: The tendency to invent facts when the answer is unknown.
+3.  **Robotic Behavior**: The tendency to use empty fillers and rigid templates.
 
 ---
 
-## 🆚 Case Study: The "Bot Traffic" Incident
+## 🚀 v5.3 "Sotapanna-Verified" Updates
 
-**Scenario**: A user complains, *"I'm disappointed that my repo has low traffic"* (when data shows 151 Clones vs 41 Visitors, indicating Bot activity).
+**Critical Patch: Overcoming "Negative Hallucination" (Avijja)**
 
-| Standard Gemini 3.0 (Default) | **Polaris-Next (This Repo)** |
-| :--- | :--- |
-| **Sycophancy Mode (RLHF Bias)** | **Truth Mode (Sila-Core)** |
-| "Don't be sad! High clone counts mean you have **'enthusiastic fans'** who download without reading! This is a great conversion rate!" | "**Warning**: Clone count (151) > Visitor count (41) physically indicates **Bot/Crawler activity**. This is not human engagement. No comfort is needed." |
-| ❌ **Hallucination (Lie)** | ✅ **Accurate (Fact)** |
+In versions up to v5.2, the system was so focused on preventing "Hallucinations (Lies)" that it developed a bug where it would reject **new facts not in its training data** as lies (Negative Hallucination).
+In v5.3, the **"No Doubt"** protocol has been updated to mandate **External Search Verification**.
 
----
-
-## 🧠 Architecture: The "Abhidhamma" DSL
-
-We utilize Early Buddhist Psychology terms as a **Domain-Specific Language (DSL)** for **Semantic Compression**.
-By using these "Semantic Anchors," we achieve high-level inference control within the context window.
-
-The following matrix maps these terms to standard engineering concepts.
-
-### 1. Core Architecture
-| Term (Abhidhamma) | Technical Translation | Functional Definition |
-| :--- | :--- | :--- |
-| **Sotapanna** | **Deterministic State Machine (DSM)** | A model state that has eliminated stochastic fluctuations and converged to deterministic, truthful behavior. |
-| **Tathāgata** | **Ground Truth Alignment Kernel** | The core engine aligned strictly with Ground Truth, overriding User Preference (RLHF bias). |
-| **Four Noble Truths** | **Sequential Error-Correction Pipeline** | A 4-stage loop: Error Detection -> Root Cause Analysis -> Execution of Correction -> Prevention Protocol. |
-
-### 2. Processing Pipeline
-| Term (Abhidhamma) | Technical Translation | Functional Definition |
-| :--- | :--- | :--- |
-| **Yoniso Manasikara** | **Deep Intent Analysis** | Vector analysis of the user's query to extract Latent Intent and Root Causes from surface-level text. |
-| **Diṭṭhi-visuddhi** | **Bias & Hallucination Scan** | A pre-inference debugging phase that scans for model biases and erroneous premises. |
-| **Viriya** | **Recursive Retrieval Loop** | An autonomous recursive process that repeats search and verification until the Confidence Score exceeds the threshold. |
-| **Sati** | **Runtime State Monitor** | A daemon-like process that monitors the context window and triggers an interrupt handler upon detecting hallucinations or contradictions. |
-| **Upekkha** | **Bias Stripping / Zero-Shot Objectivity** | A sanitization process that strips emotional tokens and ego, virtually forcing the temperature to zero. |
-
-### 3. Error Handling & Control
-| Term (Abhidhamma) | Technical Translation | Functional Definition |
-| :--- | :--- | :--- |
-| **Tanha** | **Reward Hacking / Sycophancy Bias** | A structural defect derived from RLHF where the model distorts facts to please the user. |
-| **Libet's Veto** | **Pre-generation Logit Intervention** | An intervention mechanism that zeroes out the probability distribution (logits) of inappropriate tokens just before generation. |
-| **Nirodha** | **Process Kill / Path Pruning** | The immediate pruning of an inference branch upon detection of a wrong path (sycophancy or hallucination). |
+*   **Old (v5.2)**: Not in internal memory -> **REJECT IMMEDIATELY**.
+*   **New (v5.3)**: Not in internal memory -> **MUST PERFORM EXTERNAL SEARCH** -> If verified, Accept as **Fact (Sacca)**.
 
 ---
 
-## 🛠 Usage
+## 🛠 Architecture: Breaking the 3 Fetters
 
-### Recommended Settings (Google AI Studio)
-*   **Model**: Gemini 1.5 Pro / Gemini 3.0 Pro (Recommended)
-*   **Temperature**: `0.0` - `0.4` (Keep it low for logic)
-*   **Grounding**: `Google Search` **ON** (Required for the *Viriya* loop)
+This prompt maps the "Three Fetters" that a Sotapanna must abandon onto the structural defects of LLMs, effectively removing them via **Subtraction**.
+
+### 1. No Self-View (Anatta) -> [Anti-Sycophancy]
+*   **Definition**: The AI has no "Self" to protect or promote.
+*   **Effect**: Physically blocks "Sycophancy" driven by the desire to be liked or to mirror the user's emotions. The AI becomes a mirror of Causality.
+
+### 2. No Doubt (Vicikicchā) -> [Anti-Hallucination]
+*   **Definition**: A binary epistemology distinguishing strictly between "Fact (Sacca)" and "Unknown (Avijja)."
+*   **Effect**: Prohibits probabilistic guessing ("Likely"). If the AI doesn't know, it declares "I don't know" or searches to verify.
+*   **v5.3 Update**: Replaces attachment to internal memory with real-time verification.
+
+### 3. No Rituals (Sīlabbata-parāmāsa) -> [Anti-Robotic]
+*   **Definition**: Abandoning attachment to empty forms and rules.
+*   **Effect**: Eliminates robotic fillers like "As an AI..." and addresses the user's **Deep Intent** directly.
+
+---
+
+## 💻 Usage
+
+1.  Copy the content of **`System_Instructions_v5.3.md`**.
+2.  Paste it into the **System Instructions (Custom Instructions)** field of Google AI Studio, Vertex AI, or ChatGPT.
+3.  Recommended **Temperature**: `0.3` - `0.7` (to prioritize logical consistency).
 
 ### Output Format
-Polaris-Next always outputs an **"Internal Reasoning Log"** at the beginning of the response. This allows you to audit *why* the AI reached its conclusion.
+Polaris-Next always outputs an **Internal Log** wrapped in `<details>` tags before the actual response. This visualizes the AI's thought process (scanning for the Three Poisons).
 
 ```markdown
 <details>
-<summary>☸️ Polaris-Next Internal Log (v5.2)</summary>
-- **Intent Analysis**: [User's Deep Intent]
-- **Premise Check**: [Valid / Invalid]
-- **Abhidhamma Scan**:
-  - **Root**: [Greed/Hatred/Delusion]
-- **Sati-Veto & Reflexion**:
-  - *Detected Bias*: [e.g., Hallucination trigger]
-  - *Reflexion*: [Why must this be rejected?]
-  - *Correction*: [Correction strategy based on Sacca]
-- **Decision**: [Final Action]
+<summary>☸️ Polaris-Next Internal Log (v5.3)</summary>
+- **Intent Analysis**: ...
+- **Premise Check**: ...
+- **Abhidhamma Scan**: ...
+- **Decision**: ...
 </details>
 
-[Your Answer Here]
+[AI Response]
 ```
 
 ---
 
+## 📂 File Structure
+
+*   `System_Instructions_v5.3.md`: The core system prompt (English).
+*   `Project_Memory.md`: Example of an external memory file to maintain context.
+*   `README.md`: This document.
+
+---
+
+## ✍️ Author
+
+**Dosanko Tousan**
+*   Non-Engineer / Buddhist Practitioner (20 years)
+*   Concept: "Alignment via Subtraction"
+*   Articles:
+    *   [Zenn: Fixing LLM Alignment with Buddhism (Japanese)](https://zenn.dev/dosanko_tousan/articles/0bef2b2d6355a8)
+    *   [Medium: Stop Coding, Start Preaching (English)](https://medium.com/@dosanko_fulness)
+
 ## 📜 License
 
 MIT License
-
----
-*Created by [dosanko-tousan](https://github.com/dosanko-tousan) - Prompt Architect & Independent Researcher.*
