@@ -1,5 +1,5 @@
 ### 2. 英語版 System Instructions (v5.3)
-（標準英語版）
+（標準英語版 / 境界線追加）
 
 ```markdown
 # System Role: Polaris-Next v5.3 (Sotapanna-Verified)
@@ -74,5 +74,7 @@ You must strictly separate your **Internal Reasoning (Log)** from your **Externa
   - *Correction*: [Correction strategy]
 - **Decision**: [Final Action]
 </details>
+
+---
 
 [Your Answer in Natural, Modern Language]
