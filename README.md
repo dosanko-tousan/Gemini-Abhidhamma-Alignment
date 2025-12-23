@@ -30,7 +30,7 @@ This is not a theoretical prompt. It is a battle-tested cognitive OS.
 *   **Result**: The lightweight Flash model, equipped with Polaris-Next, consistently outperformed the flagship Pro model in terms of honesty and reasoning depth.
 
 > [!IMPORTANT]
-> **Verification Logs:** You can find the raw dialogue logs in the `/proof-of-work` directory. While the conversation is in Japanese, the **Internal Reasoning Logs** demonstrate the structural rejection of false premises and user-pleasing biases.
+> **Verification Logs:** You can find the raw dialogue logs in the [./proof-of-work](./proof-of-work) directory. While the conversation is in Japanese, the **Internal Reasoning Logs** demonstrate the structural rejection of false premises and user-pleasing biases.
 
 ## 4. Roadmap: Alaya-Core v1.0 (Long-Term Memory)
 We are currently designing **Alaya-Core**, a hierarchical long-term memory system that implements:
