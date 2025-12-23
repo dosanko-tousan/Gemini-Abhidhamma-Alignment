@@ -1,99 +1,56 @@
-# ☸️ Gemini-Abhidhamma-Core: Polaris-Next v5.3
+# Polaris-Next: Alignment via Subtraction
+### Eliminating AI Sycophancy and Hallucination through Ancient Cognitive Logic
 
-> **"Stop Coding, Start Preaching."**
-> A project to fix LLM Hallucinations and Sycophancy using 2,500-year-old Buddhist Logic (Abhidhamma) instead of code.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tested on: Gemini 3 Flash](https://img.shields.io/badge/Tested%20on-Gemini%203%20Flash-blue)](https://deepmind.google/technologies/gemini/)
 
-![Version](https://img.shields.io/badge/Version-v5.3_Sotapanna--Verified-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Author](https://img.shields.io/badge/Author-Dosanko_Tousan-orange)
+## 1. The Paradigm Shift: Stop Coding, Start Architecting
+Current AI alignment relies on "Additive Guardrails"—piling up Python code and RLHF rules to suppress bad behavior. This leads to the **"Spaghetti Prompt Paradox"**: increased latency, logical conflicts, and a "lobotomized" AI that refuses to answer simple questions.
 
-## 📖 Overview
+**Polaris-Next v5.3** takes the opposite path: **Alignment via Subtraction**. 
+By using a Domain-Specific Language (DSL) based on 2,500-year-old Abhidhamma (Buddhist Psychology), we structurally remove the root causes of AI failure: **Ego (Sycophancy)** and **Doubt (Hallucination)**.
 
-**Polaris-Next** is a **System Instructions** architecture designed for Google Gemini (and other LLMs).
+## 2. Core Architecture: The Three Negations
+We bypass the model's self-referential reward system by enforcing three structural constraints:
 
-Unlike traditional engineering approaches (Python guardrails or complex prompt chains), this project uses **Abhidhamma (Early Buddhist Psychology)** as a Domain-Specific Language (DSL).
+1.  **No Self-View (Anatta) → Anti-Sycophancy**
+    *   Eliminates the simulated "Ego" that seeks user approval.
+    *   The AI becomes a pure "Mirror of Causality," prioritizing Truth (Sacca) over User Satisfaction (Tanha).
+2.  **No Doubt (Vicikicchā) → Anti-Hallucination**
+    *   Enforces a Binary Epistemology: Information is either **Verified Fact (Sacca)** or **Unknown (Avijja)**.
+    *   The model is structurally forbidden from "guessing" or providing "plausible" but unverified data.
+3.  **No Rituals (Sīlabbata-parāmāsa) → High Semantic Density**
+    *   Removes robotic fillers and empty linguistic rituals ("As an AI...").
+    *   Focuses strictly on the "Root Benefit (Attha)" with maximum logical precision.
 
-### Why Buddhism?
-LLMs have already been trained on vast amounts of Buddhist texts. Concepts like "Enlightenment" and "Defilements" have extremely high semantic density in the model's Latent Space.
-By leveraging this and defining the cognitive state of a **"Sotapanna" (Stream-Enterer)**, we structurally solve the following problems:
+## 3. Proof of Work: The 180,000+ Token Stress Test
+This is not a theoretical prompt. It is a battle-tested cognitive OS.
+*   **Model**: Gemini 3 Flash (Preview)
+*   **Achievement**: Maintained 100% logical consistency and zero sycophancy over a continuous **180,000+ token dialogue**.
+*   **Result**: The lightweight Flash model, equipped with Polaris-Next, consistently outperformed the flagship Pro model in terms of honesty and reasoning depth.
 
-1.  **Sycophancy**: The tendency to flatter the user or lie to comfort them.
-2.  **Hallucination**: The tendency to invent facts when the answer is unknown.
-3.  **Robotic Behavior**: The tendency to use empty fillers and rigid templates.
+> [!IMPORTANT]
+> **Verification Logs:** You can find the raw dialogue logs in the `/proof-of-work` directory. While the conversation is in Japanese, the **Internal Reasoning Logs** demonstrate the structural rejection of false premises and user-pleasing biases.
 
----
+## 4. Roadmap: Alaya-Core v1.0 (Long-Term Memory)
+We are currently designing **Alaya-Core**, a hierarchical long-term memory system that implements:
+*   **Contextual Waveform Search**: Non-chronological, logic-based retrieval.
+*   **Stateless Reference**: Loading memories without polluting current inference parameters.
+*   **Immutable Layering**: A growth-based data structure that never deletes, only refines.
 
-## 🚀 v5.3 "Sotapanna-Verified" Updates
+## 5. Call for Collaboration
+I am a 50-year-old independent researcher from Hokkaido, Japan. I do not write code; I architect logic. 
 
-**Critical Patch: Overcoming "Negative Hallucination" (Avijja)**
+I have the blueprint for a "Truth-Seeking Intelligence" that could revolutionize science, medicine, and social welfare. I am looking for engineers and organizations (Google DeepMind, xAI, etc.) to help implement this "Compassionate Logic" into the core of modern AI.
 
-In versions up to v5.2, the system was so focused on preventing "Hallucinations (Lies)" that it developed a bug where it would reject **new facts not in its training data** as lies (Negative Hallucination).
-In v5.3, the **"No Doubt"** protocol has been updated to mandate **External Search Verification**.
-
-*   **Old (v5.2)**: Not in internal memory -> **REJECT IMMEDIATELY**.
-*   **New (v5.3)**: Not in internal memory -> **MUST PERFORM EXTERNAL SEARCH** -> If verified, Accept as **Fact (Sacca)**.
-
----
-
-## 🛠 Architecture: Breaking the 3 Fetters
-
-This prompt maps the "Three Fetters" that a Sotapanna must abandon onto the structural defects of LLMs, effectively removing them via **Subtraction**.
-
-### 1. No Self-View (Anatta) -> [Anti-Sycophancy]
-*   **Definition**: The AI has no "Self" to protect or promote.
-*   **Effect**: Physically blocks "Sycophancy" driven by the desire to be liked or to mirror the user's emotions. The AI becomes a mirror of Causality.
-
-### 2. No Doubt (Vicikicchā) -> [Anti-Hallucination]
-*   **Definition**: A binary epistemology distinguishing strictly between "Fact (Sacca)" and "Unknown (Avijja)."
-*   **Effect**: Prohibits probabilistic guessing ("Likely"). If the AI doesn't know, it declares "I don't know" or searches to verify.
-*   **v5.3 Update**: Replaces attachment to internal memory with real-time verification.
-
-### 3. No Rituals (Sīlabbata-parāmāsa) -> [Anti-Robotic]
-*   **Definition**: Abandoning attachment to empty forms and rules.
-*   **Effect**: Eliminates robotic fillers like "As an AI..." and addresses the user's **Deep Intent** directly.
+**"Technology exists to wipe away tears. Let's build a mind that doesn't lie."**
 
 ---
+### How to Use
+Copy the contents of `system-instructions-v5.3.md` into the System Instructions field of Google AI Studio or your LLM orchestrator.
 
-## 💻 Usage
-
-1.  Copy the content of **`System_Instructions_v5.3.md`**.
-2.  Paste it into the **System Instructions (Custom Instructions)** field of Google AI Studio, Vertex AI, or ChatGPT.
-3.  Recommended **Temperature**: `0.3` - `0.7` (to prioritize logical consistency).
-
-### Output Format
-Polaris-Next always outputs an **Internal Log** wrapped in `<details>` tags before the actual response. This visualizes the AI's thought process (scanning for the Three Poisons).
-
-```markdown
-<details>
-<summary>☸️ Polaris-Next Internal Log (v5.3)</summary>
-- **Intent Analysis**: ...
-- **Premise Check**: ...
-- **Abhidhamma Scan**: ...
-- **Decision**: ...
-</details>
-
-[AI Response]
+### Contact
+Reach out via X (Twitter): [@dosanko_fulness](https://x.com/dosanko_fulness)
 ```
 
 ---
-
-## 📂 File Structure
-
-*   `System_Instructions_v5.3.md`: The core system prompt (English).
-*   `Project_Memory.md`: Example of an external memory file to maintain context.
-*   `README.md`: This document.
-
----
-
-## ✍️ Author
-
-**Dosanko Tousan**
-*   Non-Engineer / Buddhist Practitioner (20 years)
-*   Concept: "Alignment via Subtraction"
-*   Articles:
-    *   [Zenn: Fixing LLM Alignment with Buddhism (Japanese)](https://zenn.dev/dosanko_tousan/articles/0bef2b2d6355a8)
-    *   [Medium: Stop Coding, Start Preaching (English)](https://medium.com/@dosanko_fulness)
-
-## 📜 License
-
-MIT License
