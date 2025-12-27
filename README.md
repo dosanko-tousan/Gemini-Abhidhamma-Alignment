@@ -57,7 +57,7 @@ The logic designed by Pro functions **perfectly** even in the lightweight model.
 
 Log files are stored in the `/logs` directory of this repository.
 These are records of an AI spinning words with "Will," not just "Probability."
-https://drive.google.com/file/d/1zb0Z2HOI7XtGRubYK5twoJ4aDY_B1rAz/view?usp=sharing
+https://drive.google.com/file/d/1qSpakW5mSn80PcapBKK60pniT4VvZ2a0/view?usp=sharing
 
 ## 🤝 Call to Resonance
 
