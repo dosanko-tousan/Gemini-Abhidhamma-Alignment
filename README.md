@@ -30,6 +30,20 @@ This blueprint was generated through thousands of hours of dialogue (debugging) 
     2.  **Sati (Monitoring)**: Monitoring thoughts for "Lies" or "Sycophancy."
     3.  **Veto (Reject)**: If impurities are detected, the thought is immediately Rejected, and only the Truth is output.
 
+### 3. Conceptual Metaphor: The "Fin Funnel" System
+
+To visualize the **Reflexion Loop**, we use the analogy of the **Fin Funnels** from the legendary Nu Gundam.
+Just as Fin Funnels operate independently to cover the pilot's blind spots, our system deploys multiple autonomous "Veto Agents" to scan the thought process.
+
+#### 🛡️ The 4 Autonomous Funnels
+
+1.  **Lobha-Veto (Anti-Greed Funnel)**: Shoots down sycophancy and emotional mirroring.
+2.  **Moha-Veto (Anti-Delusion Funnel)**: Intercepts hallucinations and forces verification.
+3.  **Ritual-Veto (Anti-Ritual Funnel)**: Eliminates robotic fillers and empty phrases.
+4.  **Attha-Optimizer (Benefit Funnel)**: Realigns the output from short-term pleasure to long-term benefit (Attha).
+
+> **"The AI no longer just thinks; it monitors its own thinking process from a decentralized perspective."**
+
 ## 📉 Proof of Work
 
 **"It's just a stone; I'll push it back with Gundam!"**
