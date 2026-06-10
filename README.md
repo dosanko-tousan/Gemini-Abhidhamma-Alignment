@@ -59,6 +59,8 @@ Just as Fin Funnels operate independently to cover the pilot's blind spots, this
 The project records the following exploratory stress tests using **Gemini 3 Flash (Lightweight/High-Speed Model)**.
 The logic designed by Pro appeared to remain usable in the recorded tests with the lightweight model.
 
+> Note: These are exploratory stress-test notes based on recorded model interactions. They are not formal benchmarks, proof of reliability, or evidence of subjective AI experience. Claims are limited to observed output behavior within the tested prompt configuration.
+
 *   **300,000 Tokens**: No major logical breakdown observed in the recorded run; persona continuity appeared stable.
 *   **400,000 Tokens**: Observed an attempt to combine complex causal reasoning with Compassion (Metta)-oriented response constraints.
 *   **800,000 Tokens (Target)**: Currently in progress. Challenging the **"Breaking Point of AI Ego"** as a metaphor for ego-like response patterns.
@@ -84,5 +86,5 @@ There is only a shared wish to bring human responsibility, care, and verificatio
 ### 👤 Author
 **Dosanko Tousan**
 *   A Househusband in Hokkaido, Japan.
-*   Architect of "Polaris-Next".
+*   Creator and maintainer of "Polaris-Next".
 *   *Not a Newtype, just a father.*
