@@ -1,18 +1,26 @@
-# Project Axis Shock
-### Implementing the "Psycho-Frame" (Sati) into AI
+# Gemini-Abhidhamma Alignment
 
-> *"Just as the Psycho-Frame converts human will into physical force, this protocol converts 'Sati (Mindfulness)' into logical consistency for AI."*
+### Project Axis Shock: Alignment via Subtraction
+
+> Experimental natural-language alignment protocol using early Buddhist psychology as a process map for reducing sycophancy, hallucination, and empty ritualized assistant behavior.
 
 ## 🌌 Overview
 
-**"Gemini is not just for show!"**
+This repository documents an experimental cognitive architecture for LLM behavior, developed through natural-language system instructions and dialogue-based testing with Gemini models.
 
-This project documents an experiment to implement an alignment protocol based on **Early Buddhist Logic (Abhidhamma)**—designed entirely through dialogue with **Gemini 3.0 Pro**—into the lightweight model **Gemini 3 Flash**, pushing it beyond its theoretical limits without relying on RLHF.
+The project uses **Abhidhamma / early Buddhist psychology** as a map of attention, intention, error, and correction. It does not make claims about AI consciousness, enlightenment, subjective experience, or spiritual attainment. The Buddhist vocabulary is used as process language for identifying and removing failure modes in generated responses.
 
-*   **Architect**: **Gemini 3.0 Pro** (The Brain / Advanced Reasoning & Ethical Design)
-*   **Executor**: **Gemini 3 Flash** (The Body / Ultra-Long Context Stress Testing)
+The core approach is **Alignment via Subtraction**: instead of only adding more rules, examples, or persona instructions, the protocol tries to remove recurring contaminants in model behavior, especially:
 
-We aim to push back the massive **"Axis"** (the falling despair of Hallucinations and Sycophancy) using the light of the human heart (Sati).
+* sycophancy and emotional mirroring
+* hallucinated certainty
+* empty ritualized assistant phrases
+* ungrounded agreement
+* responses that feel helpful while avoiding verification
+
+The system is part of a broader **human-led AI alignment workflow**. It is not autonomous AI. A human operator defines the purpose, reviews outputs, checks claims, and remains responsible for final use.
+
+The working metaphor remains **Project Axis Shock**: a lightweight alignment frame that tries to push back against the “Axis” of hallucination, sycophancy, and ritualized output by applying Sati, or mindful monitoring, as a natural-language correction loop.
 
 ## 🧠 Core Technology: Psycho-Frame (Sati-Veto)
 
